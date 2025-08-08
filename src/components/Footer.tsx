@@ -256,6 +256,23 @@ const Footer = () => {
           </div>
         </motion.div>
 
+        {/* Demo Disclaimer */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="border-t border-white/10 py-6"
+        >
+          <div className="text-center">
+            <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border border-orange-500/30 rounded-xl p-4 mb-6">
+              <p className="text-orange-300 text-sm font-medium">
+                ⚠️ DEMO/VORSCHAU WEBSITE - Alle Inhalte sind fiktiv und dienen nur Präsentationszwecken. 
+                Keine echten Finanzdienstleistungen oder Datenerfassung.
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
         {/* Bottom Bar */}
         <motion.div
           initial={{ opacity: 0 }}
