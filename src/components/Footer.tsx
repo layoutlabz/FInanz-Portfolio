@@ -52,9 +52,9 @@ const Footer = () => {
   ];
 
   const trustIndicators = [
-    { icon: Shield, text: "BaFin lizenziert", color: "text-emerald-400" },
-    { icon: Award, text: "ISO 27001 zertifiziert", color: "text-amber-400" },
-    { icon: Users, text: "5000+ zufriedene Kunden", color: "text-blue-400" }
+    { icon: Shield, text: "Preview - Beispiel Lizenz", color: "text-emerald-400" },
+    { icon: Award, text: "Preview - Beispiel Zertifizierung", color: "text-amber-400" },
+    { icon: Users, text: "Preview - Beispiel Kunden", color: "text-blue-400" }
   ];
 
   return (
@@ -304,5 +304,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;

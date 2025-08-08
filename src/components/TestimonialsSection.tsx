@@ -150,16 +150,16 @@ const TestimonialsSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: 'Zertifizierte Berater',
-                  description: 'Alle unsere Berater sind zertifiziert und verfügen über umfassende Erfahrung.'
+                  title: 'Preview - Beispiel Berater',
+                  description: 'Preview - Beispiel Beschreibung für Beraterqualifikationen.'
                 },
                 {
-                  title: 'Transparente Gebühren',
-                  description: 'Klare und faire Preisgestaltung ohne versteckte Kosten.'
+                  title: 'Preview - Beispiel Gebühren',
+                  description: 'Preview - Beispiel Beschreibung für transparente Preisgestaltung.'
                 },
                 {
-                  title: 'Persönliche Betreuung',
-                  description: 'Ein fester Ansprechpartner für alle Ihre Finanzfragen.'
+                  title: 'Preview - Beispiel Betreuung',
+                  description: 'Preview - Beispiel Beschreibung für persönliche Kundenbetreuung.'
                 }
               ].map((item, index) => (
                 <motion.div
@@ -180,5 +180,6 @@ const TestimonialsSection = () => {
     </section>
   );
 };
+
 
 export default TestimonialsSection;

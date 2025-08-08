@@ -41,7 +41,7 @@ const HeroSection = () => {
     {
       icon: TrendingUp,
       value: counts.clients.toLocaleString(),
-      label: "Zufriedene Kunden",
+      label: "Preview - Beispiel Kunden",
       color: "from-emerald-400 to-teal-500"
     },
     {
@@ -84,7 +84,7 @@ const HeroSection = () => {
               className="inline-flex items-center space-x-2 glass-effect-subtle px-6 py-3 rounded-full"
             >
               <Star className="w-4 h-4 text-amber-400" />
-              <span className="text-sm font-medium text-gray-300">Führender Finanzberater 2024</span>
+              <span className="text-sm font-medium text-gray-300">Preview - Beispiel Berater</span>
             </motion.div>
 
             {/* Main Heading */}
@@ -181,12 +181,12 @@ const HeroSection = () => {
             className="pt-12"
           >
             <div className="glass-effect-subtle p-6 rounded-2xl">
-              <p className="text-gray-400 text-sm mb-4">Vertrauen von führenden Institutionen</p>
+              <p className="text-gray-400 text-sm mb-4">Preview - Beispiel Partner</p>
               <div className="flex items-center justify-center space-x-8 opacity-60">
-                <div className="text-gray-500 font-semibold">BaFin</div>
-                <div className="text-gray-500 font-semibold">Deutsche Bank</div>
-                <div className="text-gray-500 font-semibold">Allianz</div>
-                <div className="text-gray-500 font-semibold">Commerzbank</div>
+                <div className="text-gray-500 font-semibold">FinanceCorp</div>
+                <div className="text-gray-500 font-semibold">GlobalBank</div>
+                <div className="text-gray-500 font-semibold">SecureInvest</div>
+                <div className="text-gray-500 font-semibold">CapitalTrust</div>
               </div>
             </div>
           </motion.div>
@@ -207,5 +207,7 @@ const HeroSection = () => {
     </section>
   );
 };
+
+
 
 export default HeroSection;

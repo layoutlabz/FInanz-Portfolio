@@ -21,7 +21,7 @@ export default function AboutPage() {
     {
       name: 'Dr. Sarah Müller',
       position: 'Geschäftsführerin & Senior Beraterin',
-      experience: '15+ Jahre',
+              experience: 'Preview - Beispiel Jahre',
       expertise: ['Investment Management', 'Vermögensverwaltung', 'Strategische Planung'],
       image: '/api/placeholder/200/200'
     },
@@ -76,8 +76,8 @@ export default function AboutPage() {
     { year: '2012', title: 'Erste 100 Kunden', description: 'Wir erreichen unseren ersten Meilenstein' },
     { year: '2015', title: 'Expansion', description: 'Eröffnung weiterer Standorte in Deutschland' },
     { year: '2018', title: 'Digitalisierung', description: 'Einführung modernster Technologien' },
-    { year: '2021', title: '50M€ verwaltetes Vermögen', description: 'Ein weiterer wichtiger Meilenstein' },
-    { year: '2024', title: '500+ zufriedene Kunden', description: 'Vertrauen Sie auf unsere Erfahrung' }
+            { year: '2021', title: 'Preview - Beispiel Vermögen', description: 'Preview - Beispiel Meilenstein' },
+            { year: '2024', title: 'Preview - Beispiel Kunden', description: 'Preview - Beispiel Beschreibung' }
   ];
 
   return (
@@ -113,7 +113,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6">Unsere Mission</h2>
               <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                 Wir helfen Menschen dabei, ihre finanziellen Ziele zu erreichen und ihre Zukunft abzusichern. 
-                Durch maßgeschneiderte Lösungen und persönliche Betreuung schaffen wir Vertrauen und nachhaltigen Erfolg.
+                Preview - Beispiel Beschreibung für maßgeschneiderte Lösungen und Kundenbetreuung.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Unser Ziel ist es, Ihnen die bestmöglichen Finanzlösungen zu bieten, die zu Ihren individuellen 
@@ -350,4 +350,5 @@ export default function AboutPage() {
       </section>
     </div>
   );
+  
 }

@@ -19,14 +19,14 @@ const StatsSection = () => {
       icon: Users,
       number: 500,
       suffix: '+',
-      label: 'Zufriedene Kunden',
+      label: 'Preview - Beispiel Kunden',
       description: 'Vertrauen uns seit Jahren'
     },
     {
       icon: DollarSign,
       number: 50,
       suffix: 'M€',
-      label: 'Verwaltetes Vermögen',
+      label: 'Preview - Beispiel Vermögen',
       description: 'Professionell gemanagt'
     },
     {
@@ -162,5 +162,6 @@ const StatsSection = () => {
     </section>
   );
 };
+
 
 export default StatsSection;
