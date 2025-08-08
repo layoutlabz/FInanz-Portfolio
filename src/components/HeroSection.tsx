@@ -109,7 +109,7 @@ const HeroSection = () => {
                 className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
               >
                 Entdecken Sie maßgeschneiderte Investmentstrategien und professionelle 
-                Finanzberatung für Ihre langfristigen Ziele. Wir machen Ihre Träume zur Realität.
+                Lorem ipsum Beratung für Ihre langfristigen Ziele. Wir machen Ihre Träume zur Realität.
               </motion.p>
             </div>
 
@@ -183,10 +183,10 @@ const HeroSection = () => {
             <div className="glass-effect-subtle p-6 rounded-2xl">
               <p className="text-gray-400 text-sm mb-4">Preview - Beispiel Partner</p>
               <div className="flex items-center justify-center space-x-8 opacity-60">
-                <div className="text-gray-500 font-semibold">FinanceCorp</div>
-                <div className="text-gray-500 font-semibold">GlobalBank</div>
-                <div className="text-gray-500 font-semibold">SecureInvest</div>
-                <div className="text-gray-500 font-semibold">CapitalTrust</div>
+                            <div className="text-gray-500 font-semibold">LoremCorp</div>
+            <div className="text-gray-500 font-semibold">IpsumBank</div>
+            <div className="text-gray-500 font-semibold">DolorInvest</div>
+            <div className="text-gray-500 font-semibold">SitTrust</div>
               </div>
             </div>
           </motion.div>

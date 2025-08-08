@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
+import ClientWrapper from "@/components/ClientWrapper";
+import FooterWrapper from "@/components/FooterWrapper";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Finanz Portfolio - Ihr Partner für finanzielle Freiheit",
-  description: "Entdecken Sie unsere umfassenden Finanzdienstleistungen und Investmentstrategien für Ihre finanzielle Zukunft.",
+  title: "Lorem Portfolio - Ihr Partner für finanzielle Freiheit",
+  description: "Entdecken Sie unsere umfassenden Lorem ipsum Dienstleistungen und Investmentstrategien für Ihre finanzielle Zukunft.",
 };
 
 export default function RootLayout({
@@ -30,11 +30,18 @@ export default function RootLayout({
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-emerald-500/5 to-teal-600/5 rounded-full blur-3xl animate-pulse-slow"></div>
           </div>
           
-          <Navigation />
+          {/* Demo Disclaimer Banner */}
+          <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-orange-500 to-red-500 text-white text-center py-2 px-4 shadow-lg">
+            <p className="text-sm font-medium">
+              ⚠️ DEMO/VORSCHAU - Alle Inhalte sind fiktiv und dienen nur Präsentationszwecken
+            </p>
+          </div>
+          
+          <ClientWrapper />
           <main className="flex-grow relative z-10">
             {children}
           </main>
-          <Footer />
+          <FooterWrapper />
         </div>
       </body>
     </html>

@@ -118,7 +118,7 @@ const ServicesSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed"
           >
-            Entdecken Sie unsere umfassenden Finanzdienstleistungen, die auf Ihre individuellen 
+                          Entdecken Sie unsere umfassenden Lorem ipsum Dienstleistungen, die auf Ihre individuellen 
             Bedürfnisse und Ziele zugeschnitten sind.
           </motion.p>
         </motion.div>

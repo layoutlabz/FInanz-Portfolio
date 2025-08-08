@@ -34,7 +34,7 @@ export default function AboutPage() {
     },
     {
       name: 'Lisa Schmidt',
-      position: 'Senior Finanzberaterin',
+              position: 'Senior Lorem ipsum Beraterin',
       experience: '10+ Jahre',
       expertise: ['Finanzplanung', 'Altersvorsorge', 'Versicherungen'],
       image: '/api/placeholder/200/200'

@@ -27,29 +27,16 @@ const Navigation = () => {
   ];
 
   return (
-    <>
-      {/* Demo Disclaimer Banner */}
-      <motion.div
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-orange-500 to-red-500 text-white text-center py-2 px-4 shadow-lg"
-      >
-        <p className="text-sm font-medium">
-          ⚠️ DEMO/VORSCHAU - Alle Inhalte sind fiktiv und dienen nur Präsentationszwecken
-        </p>
-      </motion.div>
-      
-      <motion.nav
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-        className={`fixed top-12 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled 
-            ? "glass-effect-strong shadow-2xl shadow-black/30" 
-            : "bg-transparent"
-        }`}
-      >
+    <motion.nav
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className={`fixed top-12 left-0 right-0 z-50 transition-all duration-500 ${
+        isScrolled 
+          ? "glass-effect-strong shadow-2xl shadow-black/30" 
+          : "bg-transparent"
+      }`}
+    >
       <div className="container-custom px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -62,7 +49,7 @@ const Navigation = () => {
               <span className="text-white font-bold text-lg">F</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold gradient-text">Finanz Portfolio</h1>
+              <h1 className="text-xl font-bold gradient-text">Lorem Portfolio</h1>
               <p className="text-xs text-gray-400 -mt-1">Ihr Partner für finanzielle Freiheit</p>
             </div>
           </motion.div>
@@ -188,8 +175,7 @@ const Navigation = () => {
           </motion.div>
         )}
       </AnimatePresence>
-      </motion.nav>
-    </>
+    </motion.nav>
   );
 };
 

@@ -81,13 +81,13 @@ const Footer = () => {
                   <span className="text-white font-bold text-xl">F</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold gradient-text">Finanz Portfolio</h3>
+                  <h3 className="text-xl font-bold gradient-text">Lorem Portfolio</h3>
                   <p className="text-sm text-gray-400">Ihr Partner für finanzielle Freiheit</p>
                 </div>
               </div>
 
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Professionelle Finanzberatung und Vermögensverwaltung für Privatpersonen 
+                Professionelle Lorem ipsum Beratung und Vermögensverwaltung für Privatpersonen 
                 und Unternehmen. Wir machen Ihre finanziellen Ziele zur Realität.
               </p>
 
@@ -283,7 +283,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             {/* Copyright */}
             <div className="text-gray-400 text-sm">
-              © {currentYear} Finanz Portfolio. Alle Rechte vorbehalten.
+                              © {currentYear} Lorem Portfolio. Alle Rechte vorbehalten.
             </div>
 
             {/* Social Links */}

@@ -167,7 +167,7 @@ export default function ServicesPage() {
               Unsere <span className="gradient-text">Services</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Entdecken Sie unser umfassendes Angebot an Finanzdienstleistungen, 
+              Entdecken Sie unser umfassendes Angebot an Lorem ipsum Dienstleistungen, 
               maßgeschneidert für Ihre individuellen Bedürfnisse und Ziele.
             </p>
           </motion.div>
